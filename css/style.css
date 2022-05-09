@@ -1,0 +1,624 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+/*Menú*/
+
+header{
+    text-align: center;
+    color: black;
+    padding: 30px 10px 0px 50px;
+}
+
+header .menu .barra{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+    .menu .dis{
+        flex-basis: 30%;
+    }
+
+        .menu .dis a{
+            color: #000000;
+            font-weight: 700;
+        }
+
+            .menu .dis a:hover{
+                color: #3E8DDD;
+                text-decoration: underline;
+            }
+
+    .menu .blog{
+        flex-basis: 10%;
+    }
+
+        .menu .blog a{
+            color: #000000;
+            font-weight: 700;
+        }
+
+            .menu .blog a:hover{
+                color: #3E8DDD;
+                text-decoration: underline;
+            }
+
+    .menu .tec{
+        flex-basis: 15%;
+    }
+    
+        .menu .tec a{
+            color: #000000;
+            font-weight: 700;
+        }
+
+            .menu .tec a:hover{
+                color: #3E8DDD;
+                text-decoration: underline;
+            }
+
+   .menu .start{
+        flex-basis: 30%;
+    }
+
+        header .start a{
+            font-weight: 700;
+            color: white;
+            background-color: #3E8DDD;
+            border-radius: 40px;
+            padding: 10px 25px;
+            text-align: center;
+        }
+
+        .menu .start a:hover{
+            color: white;
+            background-color: #000000;
+            box-shadow: -10px 8px 25px 1px #a7a7a7;
+            transition: 0.5s;
+        }
+
+    header .logo{
+        width: 150px;
+    }
+
+/*Marca Lenovo*/
+
+.marca{
+    padding: 30px 90px 50px 90px;
+    margin: 50px 0px 30px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.marca h2{
+    font-size: 60px;
+    font-style: italic;
+    color: #3E8DDD;
+    padding-bottom: 10px;
+}
+
+    .marca .primero{
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0px 0px 5px 20px;
+    }
+
+    .marca .segundo{
+        font-size: 15px;
+        font-weight: 400;
+        padding-left: 30px;
+    }
+
+.texto{
+    text-align: start;
+}
+
+.imagen{
+    width: 350px;
+    padding: 5px;
+}
+
+/*Colores Lenovo*/
+
+.color{
+    background-color: black;
+    padding: 50px 100px 30px 100px;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.titulo{
+    color: white;
+    padding: 20px 0px 50px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.colores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.color .item{
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 25%;
+    color: white;
+    border-radius: 25px;
+}
+
+    .color .uno{
+        background-color: #E2231A;
+        color: white;
+    }
+
+    .color .dos{
+        background-color: #000000;
+        color: white;
+        border: solid white 1px;
+    }
+
+    .color .tres{
+        background-color: #6F7170;
+        color: white;
+    }
+
+    .color .cuatro{
+        background-color: #C4BEB6;
+        color: #000000;
+    }
+
+    .color .cinco{
+        background-color: #D9D8D6;
+        color: white;
+        color: #000000;
+    }
+
+    .color .seis{
+        background-color: #FF6A00;
+        color: white;
+    }
+
+    .color .siete{
+        background-color: #E96BAF;
+        color: white;
+    }
+
+    .color .ocho{
+        background-color: #3E8DDD;
+        color: white;
+    }
+
+    .color .nueve{
+        background-color: #4AC0E0;
+        color: white;
+    }
+
+    .color .diez{
+        background-color: #6ABF4A;
+        color: white;
+    }
+
+.color .item h1{
+    margin-bottom: 15px;
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+}
+
+.color .item h2{
+    font-size: smaller;
+}
+
+.color .item p{
+    font-size: small;
+}
+
+/*Más información*/
+
+.color .abajo{
+    color: white;
+    padding: 80px 0px 20px 0px;
+}
+
+.color .abajo h3{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.color .abajo p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.color .abajo a{
+    font-weight: 700;
+    color: white;
+    background-color: #4AC0E0;
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px;
+    text-align: center;
+}
+
+    .color .abajo a:hover{
+        background-color: #E2231A;
+        color: white;
+        box-shadow: -10px 8px 25px 1px #1f1f1f;
+        transition: 0.5s;
+    }
+
+/*Footer*/
+
+footer{
+    padding: 0px 30px 30px 30px;
+}
+
+footer .uno{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-bottom: 10px;
+    width: auto;
+    gap: 80px;
+    justify-content: space-around;
+    border-bottom: solid 2px #3E8DDD;
+}
+
+footer .uno .item{
+    padding: 20px;
+}
+
+footer .uno .item h1{
+    color: #3E8DDD;
+    font-size: larger;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+footer .uno .item h2{
+    color: #3E8DDD;
+    font-size: xx-large;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+footer .uno .redes ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+    footer .uno .item ul li i{
+        color: #000000;
+        font-size: 30px;
+    }
+
+        footer .uno .item ul li i:hover{
+            color: #E96BAF;
+        }
+
+    footer .uno .prod ul li{
+        margin-bottom: 10px;
+    }
+    
+        footer .uno .prod ul li a{
+            font-size: small;
+            color: #000000;
+            font-weight: 400;
+        }
+
+            footer .uno .prod ul li a:hover{
+                color: #E2231A;
+                text-decoration: underline;
+            }
+
+    footer .uno .comp ul li{
+        margin-bottom: 10px;
+    }
+
+        footer .uno .comp ul li a{
+            font-size: small;
+            color: #000000;
+            font-weight: 400;
+        }
+
+            footer .uno .comp ul li a:hover{
+                color: #FF6A00;
+                text-decoration: underline;
+            }
+
+    footer .uno .recursos ul li{
+        margin-bottom: 10px;
+    }
+        footer .uno .recursos ul li a{
+            font-size: small;
+            color: #000000;
+            font-weight: 400;
+        }
+
+            footer .uno .recursos ul li a:hover{
+                color: #6ABF4A;
+                text-decoration: underline;
+            }
+
+    footer .uno .politicas ul li{
+        margin-bottom: 10px;
+    }
+        footer .uno .politicas ul li a{
+            font-size: small;
+            color: #000000;
+            font-weight: 400;
+        }
+
+            footer .uno .politicas ul li a:hover{
+                color: #4AC0E0;
+                text-decoration: underline;
+            }
+
+
+/*Footer 2*/
+
+footer .dos img{
+    width: 170px;
+}
+
+footer .dos .fin{
+    padding: 15px 50px 0px 50px;
+}
+
+footer .dos ul li{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .dos ul li a{
+    margin: 5px 0px 0px 0px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #3E8DDD;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+    footer .dos ul li a:hover{
+        color: white;
+        background-color: black;
+        box-shadow: -10px 8px 25px 1px #a7a7a7;
+        transition: 0.5s;
+    }
+      
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+/*header*/
+
+    .barra{
+        display: inline;
+        font-size: 10px;
+    }
+
+        .barra .dis{
+            margin: 5px;
+        }
+
+        .barra .blog{
+            margin: 5px;
+        }
+
+        .barra .tec{
+            margin: 5px;
+        }
+
+        .barra .start{
+            margin: 5px;
+        }
+
+    .menu .logo{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+/*Primera parte*/
+
+    .marca{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .marca .caja_1 h2{
+        font-size: 25px;
+    }
+
+    .marca .caja_1 p{
+        font-size: 15px;
+        text-align: justify;
+        padding-left: 2px;
+        padding-bottom: 15px;
+    }
+
+    .marca img{
+        width: 80%;
+    }
+
+/*Segunda parte*/
+    
+    .color .titulo{
+        font-size: 20px;
+    }
+
+        .colores .item{
+            padding: 40px;
+        }
+
+        .colores .item h1{
+            font-size: 15px;
+        }
+
+        .colores .item h2{
+            font-size: 10px;
+        }
+
+        .colores .abajo h3{
+            font-size: 25px;
+        }
+
+        .colores .abajo p{
+            font-size: 15px;
+        }
+
+        .colores .abajo a{
+            font-size: 15px;
+        }
+
+/*Footer*/
+
+    footer .uno{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .dos ul li a{
+        font-size: 15px;
+    }
+      
+}
+      
+
+@media (min-width: 320px) and (max-width: 480px) {
+      
+    body{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+/*header*/
+
+    .barra{
+        display: inline;
+        font-size: 12px;
+        align-items: center;
+    }
+
+        .barra .dis{
+            margin: 5px;
+        }
+
+        .barra .blog{
+            margin: 5px;
+        }
+
+        .barra .tec{
+            margin: 5px;
+        }
+
+        .barra .start{
+            margin: 5px;
+        }
+
+    .menu .logo{
+        display: flex;
+        width: auto;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+/*Primera parte*/
+
+    .marca{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .marca .caja_1 h2{
+        font-size: 25px;
+    }
+
+    .marca .caja_1 p{
+        font-size: 15px;
+        text-align: justify;
+        padding-left: 2px;
+        padding-bottom: 15px;
+    }
+
+    .marca img{
+        width: 80%;
+    }
+
+/*Segunda parte*/
+    
+    .color .titulo{
+        font-size: 25px;
+    }
+
+        .colores .item{
+            padding: 40px;
+        }
+
+        .colores .item h1{
+            font-size: 10px;
+        }
+
+        .colores .item h2{
+            font-size: 8px;
+        }
+
+        .colores .abajo h3{
+            font-size: 20px;
+        }
+
+        .colores .abajo p{
+            font-size: 10px;
+        }
+
+        .colores .abajo a{
+            font-size: 10px;
+        }
+
+/*Footer*/
+
+    footer .uno{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .dos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img{
+        width: auto;
+    }
+
+    footer .dos .fin ul li{
+        margin: 20px;
+    }
+      
+} 
